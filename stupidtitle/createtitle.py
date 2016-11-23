@@ -1,5 +1,6 @@
 import random as r
 import words
+import re
 
 
 def createTitle(
@@ -8,7 +9,7 @@ def createTitle(
         prepositions=words.PREPOSITIONS,
         adjectives=words.ADJECTIVES):
 
-    # water down lists 
+    # water down lists
     articles = articles + ([''] * (len(articles)/2))
     adjectives = adjectives + ([''] * len(adjectives))
 
@@ -23,6 +24,13 @@ def createTitle(
         if i < noun_count - 1:
             part.append(r.choice(prepositions))
 
-        title_parts.append(' '.join(filter(None,part)))
+        # filter empty strings
+        part = filter(None, part)
+
+        # convert article "a" to "an"
+        if part[0] == "a" and re.search('[aeiou]', part[1][0]):
+            part[0] = "an"
+
+        title_parts.append(' '.join(part))
 
     return ' '.join(title_parts).title()
