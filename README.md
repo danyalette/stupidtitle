@@ -17,26 +17,26 @@ for i in range(20):
 
 generates:
 ```
-Weird Between Skin  
-Some Adult  
-A Extension Out No Drawer  
-No Issue  
-Benefit As Some Treat Against Some Extent  
-Engine Among The Editor  
-No Rent  
-Some Bicycle During A Disk  
-Risk At Senior  
-No Seat By Fact With No Crazy  
-Database Of Bank  
-A National Like Classic Into The Sand  
-A Passage  
-Female Without No Island  
-The Hall  
-Nasty Against A Count  
-One Mortgage About Brick  
-One Wheel To Street  
-Car  
-The Age Into A Stage  
+The Appeal Into A Sure Conflict
+Temperature
+No Major Balance
+Reach Over One Special Confusion
+One Small Exit Like A Better Weird
+A Professor At Some Small Hotel
+Paint With No Feed
+Economic Topic With The Special Mix
+Federal Habit From Early Battle
+The Certain Block Against Public Sing
+The Red Like The Pleasure
+Right Paint On The Early Objective After Assistance
+The Instruction Over A Social Blue
+Long Farmer
+Better Routine
+No Code To The Right Menu As The Sure Assumption
+A Contribution Against Analysis In A Sure Secretary
+Recent Buddy Between A Internet
+Low Shoe
+Month
 ```
 
 ## Installation
@@ -51,37 +51,38 @@ from stupidtitle import createTitle
 
 book_title = createTitle()
 ```
-You  may supply your own nouns, articles or prepositions. For instance:
+You  may supply your own lists for the `nouns`, `articles`, `prepositions`, and `adjectives`. For instance:
 ```
 from stupidtitle import createTitle
 
-cute_things = ["cutie", "hug", "fun", "beauty", "radiance", "love", "bunny", "cat", "kitten", "rainbow", "magical forest", "going skating", "silliness", "pink", "color", "frilly dress", "ballet class", "teacher", "apple", "little duck", "running", "jumping", "mouse", "home sweet home", "book", "crumpet", "tea", "powder puff", "party", "joy", "gift", "doll", "treat", "playtime", "candy", "celebration", "mutual respect", "sunny garden", "yard", "jumping rope", "sky", "sun"]
+cute_things = ["cutie", "hug", "fun", "beauty", "radiance", "love", "bunny", "cat", "kitten", "rainbow", "forest", "going skating", "silliness", "color", "dress", "ballet class", "teacher", "apple", "duck", "running", "jumping", "mouse", "home sweet home", "book", "crumpet", "tea", "powder puff", "party", "joy", "gift", "doll", "treat", "playtime", "candy", "celebration", "mutual respect", "garden", "yard", "jumping rope", "sky", "sun"]
+cute_adjectives = ["cute", "funny", "silly", "sleepy", "loving", "pink", "adorable", "goofy", "playful", "fun", "elegant", "exciting", "kind", "zany", "frilly", "amazing"]
 
 for i in range(20):
-  print createTitle(nouns=cute_things)
+  print createTitle(nouns=cute_things,adjectives=cute_adjectives)
 ```
 generates:
 ```
-Adoration Towards Hug  
-Cutie To The Apple Without One Cutie  
-One Ballet Class Among Bunny  
-A Ballet Class Through No Teacher  
-Cat Around A Teacher  
-Love Through A Adoration  
-No Love Without A Beauty  
-Cat Among The Cutie  
-Adoration  
-The Silliness Towards Going Skating  
-Teacher About Color  
-One Fun With A Fun  
-A Bunny  
-Love  
-Apple  
-One Silliness  
-One Silliness Out A Radiance  
-Love  
-One Pink  
-No Cutie Before Ballet Class  
+Love Over A Sleepy Hug
+Party
+The Kind Duck
+The Pink Running
+Some Fun Party
+A Kitten By The Kind Celebration
+The Running With One Playful Celebration
+The Celebration Towards A Mouse
+The Pink Ballet Class Of Mouse
+Running As The Color
+Color Over Yard Around One Pink Tea
+Frilly Silliness Into Sleepy Party
+Pink Silliness About The Exciting Playtime Without Some Playful Forest
+Some Silly Joy Without Some Ballet Class
+The Elegant Mouse Among The Mutual Respect
+No Adorable Forest
+The Adorable Playtime Among A Adorable Playtime Like Some Book
+The Kitten Over Gift
+Powder Puff Over The Playful Joy
+One Loving Ballet Class From Goofy Running
 ```
 
 
