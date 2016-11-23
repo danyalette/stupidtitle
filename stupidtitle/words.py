@@ -1,6 +1,6 @@
-PREPOSITIONS = ["of", "in", "to", "for", "with", "on", "at", "from", "by", "about", "as", "into", "like", "through", "after", "over", "between", "out", "against", "during", "without", "before", "under", "around", "among", "towards"]
+PREPOSITIONS = ["of", "in", "to", "for", "with", "on", "at", "from", "by", "about", "as", "into", "like", "through", "after", "over", "between", "out", "against", "during", "without", "before", "under", "around", "among", "towards"] + (["and"] * 5)
 
-ARTICLES = ["one", "some", "no", "a", "a", "the", "the", "the"]
+ARTICLES = ["one", "some", "no"] +  (["a"] * 2) + (["the"] * 3)
 
 ADJECTIVES = ["able", "bad", "best", "better", "big", "black", "certain", "clear", "different", "early", "easy", "economic", "federal", "free", "full", "good", "great", "hard", "high", "human", "important", "international", "large", "late", "little", "local", "long", "low", "major", "military", "national", "new", "old", "only", "other", "political", "possible", "public", "real", "recent", "right", "small", "social", "special", "strong", "sure", "true", "white", "whole", "young"]
 
